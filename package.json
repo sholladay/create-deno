@@ -1,0 +1,53 @@
+{
+    "name": "create-deno",
+    "version": "0.0.0",
+    "description": "Set up your Deno projects",
+    "homepage": "https://github.com/sholladay/create-deno",
+    "main": "index.js",
+    "author": {
+        "name": "Seth Holladay",
+        "url": "https://seth-holladay.com",
+        "email": "me@seth-holladay.com"
+    },
+    "scripts": {
+        "test": "xo"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git@github.com:sholladay/create-deno.git"
+    },
+    "bugs": {
+        "url": "https://github.com/sholladay/create-deno/issues",
+        "email": "me@seth-holladay.com"
+    },
+    "engines": {
+        "node": ">=8"
+    },
+    "license": "MPL-2.0",
+    "bin": "cli.sh",
+    "files": [
+        "cli.sh"
+    ],
+    "devDependencies": {
+        "eslint-config-tidy": "^0.7.0",
+        "xo": "^0.23.0"
+    },
+    "keywords": [
+        "boilerplate",
+        "cli",
+        "cli-app",
+        "create",
+        "deno",
+        "denojs",
+        "denoland",
+        "generate",
+        "generator",
+        "init",
+        "scaffold",
+        "setup",
+        "template"
+    ],
+    "xo": {
+        "extend": "tidy"
+    }
+}
